@@ -217,11 +217,9 @@ spec:
           - roles/servicenetworking.networksAdmin
           - roles/iam.serviceAccountAdmin
           - roles/iam.serviceAccountUser
-          - roles/compute.networkAdmin
     services:
       - iam.googleapis.com
       - cloudresourcemanager.googleapis.com
-      - compute.googleapis.com
       - serviceusage.googleapis.com
       - recaptchaenterprise.googleapis.com
       - networksecurity.googleapis.com
